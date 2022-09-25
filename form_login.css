@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 500px;
+  height: 400px;
+  background-color: aquamarine;
+  padding: 20px;
+  position: relative;
+}
+.section form {
+  width: 100%;
+  height: auto;
+  line-height: 40px;
+  margin-left: 10%;
+}
+.section form label {
+  display: inline-block;
+  width: 30%;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(243, 24, 239);
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+}
+.section form input {
+  width: 50%;
+  border: 1px solid red;
+  border-radius: 10px;
+  font-size: 1em;
+  outline: none;
+  padding: 5px 10px;
+}
+.section .control {
+  width: 95%;
+  height: auto;
+  margin: 10px 2.5%;
+  text-align: center;
+}
+.section .control .btn {
+  width: 100px;
+  height: 30px;
+  font-size: 1.1em;
+  color: red;
+  background-color: black;
+  border: none;
+  border-radius: 5px 20px;
+}
+.section .control .btn:hover {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+}
+.section .notification {
+  font-size: 1.2em;
+  font-style: italic;
+  text-align: center;
+  color: red;
+  animation: notification 1s linear;
+}
+@keyframes notification {
+  25% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+.section .modal {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(23, 34, 34, 0.4);
+  display: none;
+}
+.section .modal .success__login {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(73, 62, 148);
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 10px;
+}
+.section .modal .success__login__title {
+  font-size: 2em;
+  color: aquamarine;
+  padding: 5%;
+}
+.section .modal .success__login__icon {
+  padding: 24.6px 28px;
+  color: white;
+  background-color: aquamarine;
+  font-size: 3em;
+  border-radius: 100px;
+}
+.section .modal .success__login__icon:hover {
+  background-color: white;
+  color: aquamarine;
+}
+
+/*# sourceMappingURL=form_login.css.map */
